@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,14 +16,15 @@ header {
     border-bottom: solid 10px #5f5ffae7;
 }
 
-header span{
+header span {
     margin-left: 20px;
     font-family: "Audiowide", sans-serif;
     font-size: 30px;
 }
 
-header a{
+header a {
     color: azure;
+    text-align: center;
 }
 
 footer {
@@ -44,12 +46,12 @@ a {
     list-style-type: none;
 }
 
-.nav-links li{
+.nav-links li {
     display: inline-block;
     padding: 0 20px;
 }
 
-.nav-links li:hover{
+.nav-links li:hover {
     display: inline-block;
     padding: 0 20px;
     background-color: #9292bb85;
@@ -82,7 +84,7 @@ footer #icons {
     color: azure;
 }
 
-#icons svg{
+#icons svg {
     padding: 10px;
 }
 
@@ -97,7 +99,7 @@ footer #icons {
 }
 
 .grid-item {
-   padding: 1rem; 
+    padding: 1rem;
 }
 
 #title {
@@ -131,12 +133,13 @@ footer #icons {
 #myDialog[open] {
     animation: fadein 0.5s ease-in forwards;
 }
-  
-@keyframes fadein{
-    0%{
-        opacity:0;
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
     }
-    100%{
-        opacity:1;
+
+    100% {
+        opacity: 1;
     }
 }
